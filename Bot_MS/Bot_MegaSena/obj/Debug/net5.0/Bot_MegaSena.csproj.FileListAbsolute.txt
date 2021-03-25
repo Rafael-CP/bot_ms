@@ -1,0 +1,16 @@
+C:\Users\Rafael\Desktop\bot1\Bot_MS\Bot_MegaSena\bin\Debug\net5.0\Bot_MegaSena.exe
+C:\Users\Rafael\Desktop\bot1\Bot_MS\Bot_MegaSena\bin\Debug\net5.0\Bot_MegaSena.deps.json
+C:\Users\Rafael\Desktop\bot1\Bot_MS\Bot_MegaSena\bin\Debug\net5.0\Bot_MegaSena.runtimeconfig.json
+C:\Users\Rafael\Desktop\bot1\Bot_MS\Bot_MegaSena\bin\Debug\net5.0\Bot_MegaSena.runtimeconfig.dev.json
+C:\Users\Rafael\Desktop\bot1\Bot_MS\Bot_MegaSena\bin\Debug\net5.0\Bot_MegaSena.dll
+C:\Users\Rafael\Desktop\bot1\Bot_MS\Bot_MegaSena\bin\Debug\net5.0\ref\Bot_MegaSena.dll
+C:\Users\Rafael\Desktop\bot1\Bot_MS\Bot_MegaSena\bin\Debug\net5.0\Bot_MegaSena.pdb
+C:\Users\Rafael\Desktop\bot1\Bot_MS\Bot_MegaSena\obj\Debug\net5.0\Bot_MegaSena.csprojAssemblyReference.cache
+C:\Users\Rafael\Desktop\bot1\Bot_MS\Bot_MegaSena\obj\Debug\net5.0\Bot_MegaSena.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rafael\Desktop\bot1\Bot_MS\Bot_MegaSena\obj\Debug\net5.0\Bot_MegaSena.AssemblyInfoInputs.cache
+C:\Users\Rafael\Desktop\bot1\Bot_MS\Bot_MegaSena\obj\Debug\net5.0\Bot_MegaSena.AssemblyInfo.cs
+C:\Users\Rafael\Desktop\bot1\Bot_MS\Bot_MegaSena\obj\Debug\net5.0\Bot_MegaSena.csproj.CoreCompileInputs.cache
+C:\Users\Rafael\Desktop\bot1\Bot_MS\Bot_MegaSena\obj\Debug\net5.0\Bot_MegaSena.dll
+C:\Users\Rafael\Desktop\bot1\Bot_MS\Bot_MegaSena\obj\Debug\net5.0\ref\Bot_MegaSena.dll
+C:\Users\Rafael\Desktop\bot1\Bot_MS\Bot_MegaSena\obj\Debug\net5.0\Bot_MegaSena.pdb
+C:\Users\Rafael\Desktop\bot1\Bot_MS\Bot_MegaSena\obj\Debug\net5.0\Bot_MegaSena.genruntimeconfig.cache
