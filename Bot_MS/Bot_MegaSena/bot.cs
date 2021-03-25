@@ -1,5 +1,8 @@
 ﻿using System;
-using System.Net; // Para poder usar o WebClient
+using System.Net; // Para usar o WebClient
+using System.Text.RegularExpressions; // Para usar o Regex
+using System.Collections.Generic; //Para usar o List
+using System.Linq; // Manipular listas
 
 namespace Bot_MegaSena
 {
@@ -22,8 +25,34 @@ namespace Bot_MegaSena
                 wc.Headers["Cookie"] = "security=true";
                 html = wc.DownloadString(url); //baixa stringa url do site
         }
+        Console.WriteLine(html);
 
-        Console.ReadKey(); //para o programa não fechar sozinho ao fim da execução (Náo eh mais necessario)
+        // Agora vamos filtrar a html obtida para obtermos apenas o que queremos
+        html = html.Replace("<span class=\"num_sorteio\"><ul>", ""); //retira span
+        html = html.Replace("</ul></span>", ""); 
+        html = html.Replace("</li>", "");
+
+        Console.WriteLine("\n");
+        Console.WriteLine(html);
+        Console.WriteLine("\n");
+
+        // Os elementos que queremos estao dentro de <li>, portanto temos que filtrar ainda mais
+        string[] vet = Regex.Split(html,"<li>"); //split faz com que tudo nos <li> virem elementos no vetor 
+        List<int> resultado = new List<int>(); //cria uma lista em que sera mostrado o resultado
+        // cada elemento de vet sera passado para lista. No ultimo elemento deverá ocorrer uma filtragem extra 
+        resultado.Add(int.Parse(vet[1]));
+        resultado.Add(int.Parse(vet[2]));
+        resultado.Add(int.Parse(vet[3]));
+        resultado.Add(int.Parse(vet[4]));
+        resultado.Add(int.Parse(vet[5]));
+        resultado.Add(int.Parse(vet[6].Substring(0, 2))); // pega os dois primeiros caracteres apenas
+
+        Console.WriteLine("Concurso" + num_Concurso);
+        Console.WriteLine("Resultado:");
+        resultado.OrderBy(x => x).ToList().ForEach(num => { //ordena o proprio valor em ordem crescente 
+            Console.WriteLine(num);                         //e os coloca em uma lista para poder usar o ForEach
+        });  
+            Console.ReadKey(); //para o programa não finalizar sozinho ao fim da execução (Nao eh mais necessario)
         }
     }
 }
