@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rafael\\Desktop\\bot1\\Bot_MS\\Bot_MegaSena\\Bot_MegaSena.csproj",
-      "projectName": "Bot_MegaSena",
-      "projectPath": "C:\\Users\\Rafael\\Desktop\\bot1\\Bot_MS\\Bot_MegaSena\\Bot_MegaSena.csproj",
+      "projectUniqueName": "C:\\Users\\Rafael\\Desktop\\bot1\\Bot_MS\\Bot_MegaSena\\Bot_MegaSena_html.csproj",
+      "projectName": "Bot_MegaSena_html",
+      "projectPath": "C:\\Users\\Rafael\\Desktop\\bot1\\Bot_MS\\Bot_MegaSena\\Bot_MegaSena_html.csproj",
       "packagesPath": "C:\\Users\\Rafael\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Rafael\\Desktop\\bot1\\Bot_MS\\Bot_MegaSena\\obj\\",
       "projectStyle": "PackageReference",

@@ -6,7 +6,7 @@ using System.Linq; // Manipular listas
 
 namespace Bot_MegaSena
 {
-    class bot
+    class bot_html
     {
         static void Main(string[] args)
         {
