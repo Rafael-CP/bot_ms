@@ -40,12 +40,18 @@ namespace Bot_MegaSena
         string[] vet = Regex.Split(html,"<li>"); //split faz com que tudo nos <li> virem elementos no vetor 
         List<int> resultado = new List<int>(); //cria uma lista em que sera mostrado o resultado
         // cada elemento de vet sera passado para lista. No ultimo elemento deverá ocorrer uma filtragem extra 
-        resultado.Add(int.Parse(vet[1]));
-        resultado.Add(int.Parse(vet[2]));
-        resultado.Add(int.Parse(vet[3]));
-        resultado.Add(int.Parse(vet[4]));
-        resultado.Add(int.Parse(vet[5]));
-        resultado.Add(int.Parse(vet[6].Substring(0, 2))); // pega os dois primeiros caracteres apenas
+
+        for(int i = 1; i <= 6; i++)
+            {
+                if (i == 6)
+                {
+                    resultado.Add(int.Parse(vet[i].Substring(0, 2))); // pega os dois primeiros caracteres apenas
+                }
+                else
+                {
+                    resultado.Add(int.Parse(vet[i]));
+                }
+            }
 
         Console.WriteLine("Concurso" + num_Concurso);
         Console.WriteLine("Resultado:");
